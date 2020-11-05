@@ -55,14 +55,11 @@ for i in range(len(userRatings.columns)):
     A.append(userRatings.columns[i][1])
 print(A)
 
+
+
 corrMatrix.columns , corrMatrix.index = A,A
+print(corrMatrix.head())
 
-
-
-
-
-
-corrMatrix.head()
 
 
 
